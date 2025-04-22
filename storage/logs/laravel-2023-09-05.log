@@ -1,0 +1,235 @@
+[2023-09-05 15:34:12] production.INFO: Array
+(
+    [client_key] => APP_USR-2455abf5-577a-4f80-a687-937165f8e469
+    [client_token] => APP_USR-5573776527063937-080313-ebf3a2bcd37187e395ddcddab7c027a2-195156858
+    [url_return_ipn] => https://betano.top/api/payments/return
+    [bearer_token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI3IiwianRpIjoiNmEyZmYxODg2YzRkZDllZGMwN2E0ZTY4OTJlZjdjMDVmZDU2YTBiNTliMzc3NGQ1YWM4ZTliOTBkNzQxZDhkY2YzZWYxYjEyZmRhNTBjOTYiLCJpYXQiOjE2NzYwNjE1NzkuMDE2Nzk3LCJuYmYiOjE2NzYwNjE1NzkuMDE2OCwiZXhwIjoxNzA3NTk3NTc5LjAwNDkxMywic3ViIjoiODIzNCIsInNjb3BlcyI6W119.ZELe7yZMayfb9Yxc_8lUb67p1eUBdwUaScqKuTgQMXReWfxMl3dAacI0stOOD96v8t15j2Byw0ei8RE58Lq2NVO1O7Xi-VuzOPabAKAbs0vKU209JCZC2VNvyHGmDOKNmrtp7vk9oBKNgr1lvX_5FLVwj08kbkpIoTh4HOs9LVXzcWoQRJZgtRLHxLZdjMVyMhax7yLpzPXJEJKRxzhz9f6r7bKH2VQPezknpK57MY_rST_GbnTKQ8IA5-z0MMTN3NGWcenSZHUEXm0sgmLV8NqUvbhV25eaJBND8E1SkZmFZ9TduZCuitBryNH-XoPM9_QeIctNCQ4f44FhmXnXdS_dgCRcMdFzVv9RDGUYKDT7ElyIgiDg3jB-5-HkQPJfIkbZDwOtRPgJLb--hMp9j1uVl7o54srWeI44IX66sHnV2Dsu9cFCAudmbcQNr-paIPxMnGSrYwMCPj3LTcRHTnO_E0FN3f7lVnWHkwxTaojFa0kGGcylpJ0ffQ0lZ8DYicleXrraOnz-HsctiZHWRK0CDZbfi7H0DzTjwAeazsA8OMNawk2t_ehvqlHscBxJPmmCGWzXoggBwzqobkGTDUe6QVZhuySYRHmMmzJOPs2VIDzLUUhp2aCzJolNmuYQepAZy3IysfvmSjq-mylV3_DZjUsf00s9wE9UXjSgK60
+)
+  
+[2023-09-05 15:34:12] production.INFO: Array
+(
+    [id] => 63232961422
+    [date_created] => 2023-09-05T14:34:11.740-04:00
+    [date_approved] => 
+    [date_last_updated] => 2023-09-05T14:34:11.740-04:00
+    [date_of_expiration] => 2023-09-06T14:34:11.210-04:00
+    [money_release_date] => 
+    [money_release_status] => released
+    [operation_type] => regular_payment
+    [issuer_id] => 12501
+    [payment_method_id] => pix
+    [payment_type_id] => bank_transfer
+    [payment_method] => Array
+        (
+            [id] => pix
+            [type] => bank_transfer
+            [issuer_id] => 12501
+        )
+
+    [status] => pending
+    [status_detail] => pending_waiting_transfer
+    [currency_id] => BRL
+    [description] => Taxa de serviço de adição de crédito
+    [live_mode] => 1
+    [sponsor_id] => 
+    [authorization_code] => 
+    [money_release_schema] => 
+    [taxes_amount] => 0
+    [counter_currency] => 
+    [brand_id] => 
+    [shipping_amount] => 0
+    [build_version] => 3.15.1
+    [pos_id] => 
+    [store_id] => 
+    [integrator_id] => 
+    [platform_id] => 
+    [corporation_id] => 
+    [payer] => Array
+        (
+            [type] => 
+            [id] => 1462405795
+            [operator_id] => 
+            [email] => 
+            [identification] => Array
+                (
+                    [type] => 
+                    [number] => 
+                )
+
+            [phone] => Array
+                (
+                    [area_code] => 
+                    [number] => 
+                    [extension] => 
+                )
+
+            [first_name] => 
+            [last_name] => 
+            [entity_type] => 
+        )
+
+    [collector_id] => 195156858
+    [marketplace_owner] => 
+    [metadata] => Array
+        (
+        )
+
+    [additional_info] => Array
+        (
+            [available_balance] => 
+            [nsu_processadora] => 
+            [authentication_code] => 
+        )
+
+    [order] => Array
+        (
+        )
+
+    [external_reference] => 47216851532774
+    [transaction_amount] => 10
+    [transaction_amount_refunded] => 0
+    [coupon_amount] => 0
+    [differential_pricing_id] => 
+    [financing_group] => 
+    [deduction_schema] => 
+    [callback_url] => 
+    [installments] => 1
+    [transaction_details] => Array
+        (
+            [payment_method_reference_id] => 
+            [acquirer_reference] => 
+            [net_received_amount] => 0
+            [total_paid_amount] => 10
+            [overpaid_amount] => 0
+            [external_resource_url] => 
+            [installment_amount] => 0
+            [financial_institution] => 
+            [payable_deferral_period] => 
+            [bank_transfer_id] => 
+            [transaction_id] => 
+        )
+
+    [fee_details] => Array
+        (
+        )
+
+    [charges_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 63232961422-001
+                    [name] => mercadopago_fee
+                    [type] => fee
+                    [accounts] => Array
+                        (
+                            [from] => collector
+                            [to] => mp
+                        )
+
+                    [client_id] => 0
+                    [date_created] => 2023-09-05T14:34:11.743-04:00
+                    [last_updated] => 2023-09-05T14:34:11.743-04:00
+                    [amounts] => Array
+                        (
+                            [original] => 0.1
+                            [refunded] => 0
+                        )
+
+                    [metadata] => Array
+                        (
+                        )
+
+                    [reserve_id] => 
+                    [refund_charges] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [captured] => 1
+    [binary_mode] => 
+    [call_for_authorize_id] => 
+    [statement_descriptor] => 
+    [card] => Array
+        (
+        )
+
+    [notification_url] => https://betano.top/api/payments/return
+    [refunds] => Array
+        (
+        )
+
+    [processing_mode] => aggregator
+    [merchant_account_id] => 
+    [merchant_number] => 
+    [acquirer_reconciliation] => Array
+        (
+        )
+
+    [point_of_interaction] => Array
+        (
+            [type] => OPENPLATFORM
+            [business_info] => Array
+                (
+                    [unit] => online_payments
+                    [sub_unit] => default
+                )
+
+            [location] => Array
+                (
+                    [state_id] => 
+                    [source] => 
+                )
+
+            [application_data] => Array
+                (
+                    [name] => 
+                    [version] => 
+                )
+
+            [transaction_data] => Array
+                (
+                    [qr_code] => 00020126580014br.gov.bcb.pix0136a6234b23-59d9-447b-8e22-98ba46476bea520400005303986540510.005802BR5911DAWE22710866008Teresina62240520mpqrinter632329614226304EF4C
+                    [bank_transfer_id] => 
+                    [transaction_id] => 
+                    [e2e_id] => 
+                    [financial_institution] => 
+                    [ticket_url] => https://www.mercadopago.com.br/payments/63232961422/ticket?caller_id=1462405795&hash=478dfd28-d7ef-4bdc-ae0c-ab4e9c6de653
+                    [bank_info] => Array
+                        (
+                            [payer] => Array
+                                (
+                                    [account_id] => 
+                                    [id] => 
+                                    [long_name] => 
+                                    [identification] => Array
+                                        (
+                                        )
+
+                                    [external_account_id] => 
+                                )
+
+                            [collector] => Array
+                                (
+                                    [account_id] => 
+                                    [long_name] => 
+                                    [account_holder_name] => Wellington da Silva Leite
+                                    [transfer_account_id] => 
+                                )
+
+                            [is_same_bank_account_owner] => 
+                            [origin_bank_id] => 
+                            [origin_wallet_id] => 
+                        )
+
+                    [qr_code_base64] => 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
+                )
+
+        )
+
+    [accounts_info] => 
+    [tags] => 
+)
+  

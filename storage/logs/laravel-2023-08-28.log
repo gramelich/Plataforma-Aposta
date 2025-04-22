@@ -1,0 +1,277 @@
+[2023-08-28 10:49:42] production.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:467)
+[stacktrace]
+#0 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(810): Illuminate\\Routing\\UrlGenerator->route()
+#1 /www/wwwroot/betano.top/app/Http/Middleware/Authenticate.php(19): route()
+#2 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(84): App\\Http\\Middleware\\Authenticate->redirectTo()
+#3 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(69): Illuminate\\Auth\\Middleware\\Authenticate->unauthenticated()
+#4 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(43): Illuminate\\Auth\\Middleware\\Authenticate->authenticate()
+#5 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Auth\\Middleware\\Authenticate->handle()
+#6 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#7 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#8 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#9 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#10 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#11 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#12 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle()
+#13 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#14 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#15 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#17 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Routing/Router.php(799): Illuminate\\Pipeline\\Pipeline->then()
+#19 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Routing/Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack()
+#20 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Routing/Router.php(740): Illuminate\\Routing\\Router->runRoute()
+#21 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Routing/Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute()
+#22 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch()
+#23 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#24 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#25 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#26 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#27 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#28 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#29 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#30 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#31 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#32 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#33 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#34 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#35 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then()
+#36 /www/wwwroot/betano.top/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#37 /www/wwwroot/betano.top/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle()
+#38 {main}
+"} 
+[2023-08-28 11:00:13] production.INFO: Array
+(
+    [client_key] => APP_USR-2455abf5-577a-4f80-a687-937165f8e469
+    [client_token] => APP_USR-5573776527063937-080313-ebf3a2bcd37187e395ddcddab7c027a2-195156858
+    [url_return_ipn] => https://betano.top/api/payments/return
+    [bearer_token] => eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI3IiwianRpIjoiNmEyZmYxODg2YzRkZDllZGMwN2E0ZTY4OTJlZjdjMDVmZDU2YTBiNTliMzc3NGQ1YWM4ZTliOTBkNzQxZDhkY2YzZWYxYjEyZmRhNTBjOTYiLCJpYXQiOjE2NzYwNjE1NzkuMDE2Nzk3LCJuYmYiOjE2NzYwNjE1NzkuMDE2OCwiZXhwIjoxNzA3NTk3NTc5LjAwNDkxMywic3ViIjoiODIzNCIsInNjb3BlcyI6W119.ZELe7yZMayfb9Yxc_8lUb67p1eUBdwUaScqKuTgQMXReWfxMl3dAacI0stOOD96v8t15j2Byw0ei8RE58Lq2NVO1O7Xi-VuzOPabAKAbs0vKU209JCZC2VNvyHGmDOKNmrtp7vk9oBKNgr1lvX_5FLVwj08kbkpIoTh4HOs9LVXzcWoQRJZgtRLHxLZdjMVyMhax7yLpzPXJEJKRxzhz9f6r7bKH2VQPezknpK57MY_rST_GbnTKQ8IA5-z0MMTN3NGWcenSZHUEXm0sgmLV8NqUvbhV25eaJBND8E1SkZmFZ9TduZCuitBryNH-XoPM9_QeIctNCQ4f44FhmXnXdS_dgCRcMdFzVv9RDGUYKDT7ElyIgiDg3jB-5-HkQPJfIkbZDwOtRPgJLb--hMp9j1uVl7o54srWeI44IX66sHnV2Dsu9cFCAudmbcQNr-paIPxMnGSrYwMCPj3LTcRHTnO_E0FN3f7lVnWHkwxTaojFa0kGGcylpJ0ffQ0lZ8DYicleXrraOnz-HsctiZHWRK0CDZbfi7H0DzTjwAeazsA8OMNawk2t_ehvqlHscBxJPmmCGWzXoggBwzqobkGTDUe6QVZhuySYRHmMmzJOPs2VIDzLUUhp2aCzJolNmuYQepAZy3IysfvmSjq-mylV3_DZjUsf00s9wE9UXjSgK60
+)
+  
+[2023-08-28 11:00:13] production.INFO: Array
+(
+    [id] => 62830014160
+    [date_created] => 2023-08-28T10:00:13.073-04:00
+    [date_approved] => 
+    [date_last_updated] => 2023-08-28T10:00:13.074-04:00
+    [date_of_expiration] => 2023-08-29T10:00:12.620-04:00
+    [money_release_date] => 
+    [money_release_status] => released
+    [operation_type] => regular_payment
+    [issuer_id] => 12501
+    [payment_method_id] => pix
+    [payment_type_id] => bank_transfer
+    [payment_method] => Array
+        (
+            [id] => pix
+            [type] => bank_transfer
+            [issuer_id] => 12501
+        )
+
+    [status] => pending
+    [status_detail] => pending_waiting_transfer
+    [currency_id] => BRL
+    [description] => Taxa de serviço de adição de crédito
+    [live_mode] => 1
+    [sponsor_id] => 
+    [authorization_code] => 
+    [money_release_schema] => 
+    [taxes_amount] => 0
+    [counter_currency] => 
+    [brand_id] => 
+    [shipping_amount] => 0
+    [build_version] => 3.13.0
+    [pos_id] => 
+    [store_id] => 
+    [integrator_id] => 
+    [platform_id] => 
+    [corporation_id] => 
+    [payer] => Array
+        (
+            [type] => 
+            [id] => 1462405795
+            [operator_id] => 
+            [email] => 
+            [identification] => Array
+                (
+                    [type] => 
+                    [number] => 
+                )
+
+            [phone] => Array
+                (
+                    [area_code] => 
+                    [number] => 
+                    [extension] => 
+                )
+
+            [first_name] => 
+            [last_name] => 
+            [entity_type] => 
+        )
+
+    [collector_id] => 195156858
+    [marketplace_owner] => 
+    [metadata] => Array
+        (
+        )
+
+    [additional_info] => Array
+        (
+            [available_balance] => 
+            [nsu_processadora] => 
+            [authentication_code] => 
+        )
+
+    [order] => Array
+        (
+        )
+
+    [external_reference] => 47197126803288
+    [transaction_amount] => 30
+    [transaction_amount_refunded] => 0
+    [coupon_amount] => 0
+    [differential_pricing_id] => 
+    [financing_group] => 
+    [deduction_schema] => 
+    [callback_url] => 
+    [installments] => 1
+    [transaction_details] => Array
+        (
+            [payment_method_reference_id] => 
+            [acquirer_reference] => 
+            [net_received_amount] => 0
+            [total_paid_amount] => 30
+            [overpaid_amount] => 0
+            [external_resource_url] => 
+            [installment_amount] => 0
+            [financial_institution] => 
+            [payable_deferral_period] => 
+            [bank_transfer_id] => 
+            [transaction_id] => 
+        )
+
+    [fee_details] => Array
+        (
+        )
+
+    [charges_details] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 62830014160-001
+                    [name] => mercadopago_fee
+                    [type] => fee
+                    [accounts] => Array
+                        (
+                            [from] => collector
+                            [to] => mp
+                        )
+
+                    [client_id] => 0
+                    [date_created] => 2023-08-28T10:00:13.076-04:00
+                    [last_updated] => 2023-08-28T10:00:13.076-04:00
+                    [amounts] => Array
+                        (
+                            [original] => 0.3
+                            [refunded] => 0
+                        )
+
+                    [metadata] => Array
+                        (
+                        )
+
+                    [reserve_id] => 
+                    [refund_charges] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [captured] => 1
+    [binary_mode] => 
+    [call_for_authorize_id] => 
+    [statement_descriptor] => 
+    [card] => Array
+        (
+        )
+
+    [notification_url] => https://betano.top/api/payments/return
+    [refunds] => Array
+        (
+        )
+
+    [processing_mode] => aggregator
+    [merchant_account_id] => 
+    [merchant_number] => 
+    [acquirer_reconciliation] => Array
+        (
+        )
+
+    [point_of_interaction] => Array
+        (
+            [type] => OPENPLATFORM
+            [business_info] => Array
+                (
+                    [unit] => online_payments
+                    [sub_unit] => default
+                )
+
+            [location] => Array
+                (
+                    [state_id] => 
+                    [source] => 
+                )
+
+            [application_data] => Array
+                (
+                    [name] => 
+                    [version] => 
+                )
+
+            [transaction_data] => Array
+                (
+                    [qr_code] => 00020126580014br.gov.bcb.pix0136a6234b23-59d9-447b-8e22-98ba46476bea520400005303986540530.005802BR5911DAWE22710866008Teresina62240520mpqrinter628300141606304B9D0
+                    [bank_transfer_id] => 
+                    [transaction_id] => 
+                    [e2e_id] => 
+                    [financial_institution] => 
+                    [ticket_url] => https://www.mercadopago.com.br/payments/62830014160/ticket?caller_id=1462405795&hash=5b7e7ff6-0514-40a2-8850-bdc769276798
+                    [bank_info] => Array
+                        (
+                            [payer] => Array
+                                (
+                                    [account_id] => 
+                                    [id] => 
+                                    [long_name] => 
+                                    [identification] => Array
+                                        (
+                                        )
+
+                                    [external_account_id] => 
+                                )
+
+                            [collector] => Array
+                                (
+                                    [account_id] => 
+                                    [long_name] => 
+                                    [account_holder_name] => Wellington da Silva Leite
+                                    [transfer_account_id] => 
+                                )
+
+                            [is_same_bank_account_owner] => 
+                            [origin_bank_id] => 
+                            [origin_wallet_id] => 
+                        )
+
+                    [qr_code_base64] => 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
+                )
+
+        )
+
+    [accounts_info] => 
+    [tags] => 
+)
+  
